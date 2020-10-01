@@ -1,0 +1,9 @@
+@calendar.map do |calendar|
+  {
+    name: calendar["name"],
+    description: calendar["description"],
+    date: calendar["date"],
+    type: calendar["type"],
+    locations: calendar["locations"]
+  }
+end
